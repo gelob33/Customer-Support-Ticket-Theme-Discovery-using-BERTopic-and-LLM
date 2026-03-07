@@ -1,0 +1,83 @@
+# Python-generated files
+__pycache__/
+*.py[cod]
+*$py.class
+build/
+dist/
+wheels/
+*.egg-info/
+*.egg
+MANIFEST
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# IDE and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+*.py,cover
+
+# Type checking
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pytype/
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+*.ipynb_meta
+
+# Environment variables and secrets
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# OS-specific
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs
+*.log
+logs/
+
+# ML/Data Science specific
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+*.onnx
+*.pt
+*.pth
+*.bin
+*.safetensors
+models/
+data/
+checkpoints/
+outputs/
+wandb/
+mlruns/
+
+# uv specific
+uv.lock

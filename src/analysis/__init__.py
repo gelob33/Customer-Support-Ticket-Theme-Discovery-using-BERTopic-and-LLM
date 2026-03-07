@@ -1,0 +1,1 @@
+"""Analysis and insights module."""
