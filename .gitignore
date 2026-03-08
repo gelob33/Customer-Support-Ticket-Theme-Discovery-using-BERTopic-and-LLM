@@ -81,3 +81,4 @@ mlruns/
 
 # uv specific
 uv.lock
+outout/

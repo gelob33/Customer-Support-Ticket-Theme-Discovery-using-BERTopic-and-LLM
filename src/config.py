@@ -93,7 +93,12 @@ DEVICE = get_device()
 # OpenAI Prompt Template
 # =============================================================================
 
-OPENAI_PROMPT_TEMPLATE = """Based on the following customer support tickets, provide a structured analysis:
+OPENAI_PROMPT_TEMPLATE = """I have a topic that contains the following customer support tickets:
+[DOCUMENTS]
+
+The topic is described by the following keywords: [KEYWORDS]
+
+Based on the information above, provide a structured analysis in the following format:
 
 Main Theme: <one sentence summary of the core issue>
 

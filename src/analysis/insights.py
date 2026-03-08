@@ -195,7 +195,7 @@ def print_analysis_summary(
         else:
             name = f"Topic {topic_id}"
 
-        print(f"  {topic_id:3d}: {count:5,} tickets ({pct:5.1f}%) - {name[:50]}")
+        print(f"  {int(topic_id):3d}: {count:5,} tickets ({pct:5.1f}%) - {name[:50]}")
 
     # Top products with issues
     print("\n" + "-" * 40)
